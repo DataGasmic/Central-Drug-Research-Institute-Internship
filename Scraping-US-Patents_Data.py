@@ -58,33 +58,7 @@ for x in patent_nos:
 	#assignee=validate_field(assignee)
 
 
-	# name = sel.xpath('//h1/text()').extract_first()
-	# if name:
-	# 	name = name.strip()
-	# job_title = sel.xpath('//h2/text()').extract_first()
-	# if job_title:
-	# 	job_title = job_title.strip()
-	# location = sel.xpath('//h3/text()').extract_first()
-	# if location:
-	# 	location = location.strip()
-	# school = sel.xpath('//*[starts-with(@class,"pv-top-card-v2-section__entity-name pv-top-card-v2-section__school-name text-align-left ml2 t-14 t-black t-bold lt-line-clamp lt-line-clamp--multi-line ember-view")]/text()').extract_first()
-	# if school:
-	# 	school = school.strip()
-
-	# linkedin_url = driver.current_url
-
-
 	
-
-
-	# print('\n')
-	# print('Name:' + name)
-	# print('Job Title:' + job_title)
-	# print('Location:'+location)
-	# print('School:'+school)
-	# print('URL:'+linkedin_url)
-	# print('\n')
-
 	writer.writerow([title,
 						abstract,
 						filing_date,
